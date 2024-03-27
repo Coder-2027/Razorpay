@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razorpay</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon"
+        href="https://cdn.wpdownloadmanager.com/wp-content/uploads/2021/05/RazorPay-for-WordPress-Download-Manager.png">
+
+    <style>
+        .animate {
+            animation: scroll 10s alternate infinite;
+        }
+
+        @keyframes scroll {
+            0% {
+                top: 0;
+            }
+
+            100% {
+                top: -100%;
+            }
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="overflow-x-hidden">
+    <nav class="bg-deepBlue">
+        <div class="w-[1200px] h-16 flex mx-auto justify-between items-center gap-6">
+            <a href="/" class="py-5">
+                <img src="https://codehelp-razorpay-clone.netlify.app/assets/logo.svg" alt="" width="150px"
+                    height="30px">
+            </a>
+            <ul class="flex gap-6">
+                <li
+                    class="text-white relative hover:text-lightBlue py-5 transition-all duration-200 font-mullish font-medium cursor-pointer group">
+                    <a href="#">Payments</a>
+                    <div class="group-hover:bg-lightBlue transition-all duration-200 h-1 absolute bottom-0 w-full">
+                    </div>
+                </li>
+
+                <li
+                    class="text-white relative hover:text-lightBlue py-5 transition-all duration-200 font-mullish font-medium cursor-pointer group">
+                    <a href="#">Banking</a>
+                    <div class="group-hover:bg-lightBlue transition-all duration-200 h-1 absolute bottom-0 w-full">
+                    </div>
+                </li>
+
+                <li
+                    class="text-white relative hover:text-lightBlue py-5 transition-all duration-200 font-mullish font-medium cursor-pointer group">
+                    <a href="#">Corporate Card</a>
+                </li>
+
+                <li
+                    class="text-white relative hover:text-lightBlue py-5 transition-all duration-200 font-mullish font-medium cursor-pointer group">
+                    <a href="#">Pay Roll</a>
+                </li>
+
+                <li
+                    class="text-white relative hover:text-lightBlue py-5 transition-all duration-200 font-mullish font-medium cursor-pointer group">
+                    <a href="#">Resources</a>
+                    <div class="group-hover:bg-lightBlue transition-all duration-200 h-1 absolute bottom-0 w-full">
+                    </div>
+                </li>
+
+                <li
+                    class="text-white relative hover:text-lightBlue py-5 transition-all duration-200 font-mullish font-medium cursor-pointer group">
+                    <a href="#">Support</a>
+                    <div class="group-hover:bg-lightBlue transition-all duration-200 h-1 absolute bottom-0 w-full">
+                    </div>
+                </li>
+
+                <li
+                    class="text-white relative hover:text-lightBlue py-5 transition-all duration-200 font-mullish font-medium cursor-pointer group">
+                    <a href="#">Pricing</a>
+                    <div class="group-hover:bg-lightBlue transition-all duration-200 h-1 absolute bottom-0 w-full">
+                    </div>
+                </li>
+            </ul>
+
+            <img src="https://codehelp-razorpay-clone.netlify.app/assets/india-flag.svg" alt="" width="30px"
+                height="20px">
+            <button class="text-white border-lightBlue300 border-2 py-4 px-7 font-mullish font-medium">
+                Log in
+            </button>
+            <button class="text-lightBlue bg-white py-4 px-5">
+                Sign Up ->
+            </button>
+        </div>
+    </nav>
+    <div class="w-full bg-deepBlue relative">
+        <div class="flex mx-auto w-[1200px]  pt-16">
+            <div class="space-y-7 pt-20">
+                <h1 class="text-white font-mullish text-5xl font-bold">Power your finance, grow your business</h1>
+                <div class="w-6 h-1 bg-greenLight"></div>
+                <p class="text-white opacity-70 text-[1.3rem]">Accept payments from customers. Automate payouts to
+                    vendors & employees. Never run out of working capital.</p>
+                <button
+                    class="p-4 text-white px-5 bg-lightBlue border-black rounded-md hover:bg-lightBlue500 transition-all duration-200">Sign
+                    Up Now</button>
+            </div>
+            <img src="https://codehelp-razorpay-clone.netlify.app/assets/hero-illustration.jpg" alt="" width="700px">
+        </div>
+    </div>
+    <div class="pb-16 z-10">
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/hero-shape.svg" alt="" width=100%>
+    </div>
+
+    <section class="relative w-full pt-12 overflow-hidden ">
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/feature-section1-dottedrows.png" alt=""
+            width="200px" class="absolute left-20 -top-28 -z-10">
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/feature-section1-dottedrows.png" alt=""
+            width="200px" class="absolute right-20 rotate-180">
+        <h1 class="font-mullish text-2xl font-bold text-center">Accept Payments with Razorpay Payment Suite</h1>
+        <div class="w-6 h-1 bg-greenLight mx-auto mt-6"></div>
+
+        <div class="w-[1200px] mx-auto p-10 relative border-[1px] border-gray2 rounded-md mt-8 bg-white">
+            <div class="w-[500px] space-y-7">
+                <h2 class="font-mullish text-3xl font-semibold">Supercharge your business with the all - powerful <span
+                        class="text-lightBlue font-semibold">Payment Gateway</span></h2>
+                <ul class="font-mullish leading-6 space-y-2 pt-6">
+                    <li class="flex gap-4">
+                        <img src="https://clipground.com/images/right-mark-symbol-png-2.png" alt="" width="25px"
+                            height="25px">
+                        <p>100+ Payment Methods</p>
+                    </li>
+                    <li class="flex gap-4">
+                        <img src="https://clipground.com/images/right-mark-symbol-png-2.png" alt="" width="25px"
+                            height="25px">
+                        <p>Industry Leading Success Rate</p>
+                    </li>
+                    <li class="flex gap-4">
+                        <img src="https://clipground.com/images/right-mark-symbol-png-2.png" alt="" width="25px"
+                            height="25px">
+                        <p>Superior Checkout Experience</p>
+                    </li>
+                    <li class="flex gap-4">
+                        <img src="https://clipground.com/images/right-mark-symbol-png-2.png" alt="" width="25px"
+                            height="25px">
+                        <p>Easy to Integrate</p>
+                    </li>
+                    <li class="flex gap-4">
+                        <img src="https://clipground.com/images/right-mark-symbol-png-2.png" alt="" width="25px"
+                            height="25px">
+                        <p>Instant Settlements from day 1</p>
+                    </li>
+                    <li class="flex gap-4">
+                        <img src="https://clipground.com/images/right-mark-symbol-png-2.png" alt="" width="25px"
+                            height="25px">
+                        <p>In-depth Reporting and Insights</p>
+                    </li>
+                </ul>
+                <div class="flex gap-10 items-center">
+                    <button
+                        class="p-4 text-white px-5 bg-lightBlue border-black rounded-md hover:bg-lightBlue500 transition-all duration-200">Sign
+                        Up Now</button>
+
+                    <div class="font-mullish text-lightBlue hover:text-lightBlue500">
+                        <a href="#" class="p-4">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <img src="https://codehelp-razorpay-clone.netlify.app/assets/payment-suite.png" alt="" width="700px"
+                class="absolute right-0 top-0">
+        </div>
+    </section>
+
+    <div class="w-full pt-20">
+        <div class="w-[1200px] grid grid-cols-3 grid-rows-2 mx-auto gap-4 h-[600px]">
+            <div class="w-full relative hover:cursor-pointer">
+                <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+                    class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] featureCardSVG transition-all duration-200 "
+                    style="stroke-opacity: 0.15">
+                    <path d="m 0 6 
+                        a 6 6 0 0 1 6 -6 
+                        h 250.32501220703125 
+                        a 16 16 0 0 1 11 5 
+                        l 77 77 
+                        a 16 16 0 0 1 5 11 
+                        v 126 
+                        a 6 6 0 0 1 -6 6 
+                        h -337.32501220703125 
+                        a 6 6 0 0 1 -6 -6 
+                        z" fill="#fff"></path>
+                </svg>
+                <div class="absolute z-50 space-y-6 p-8">
+                    <h1 class="font-mullish text-deepBlue font-semibold text-xl">Payment Links</h1>
+                    <p class="text-grayText">Share payment link via an email, SMS, messenger, chatbot etc. and get paid
+                        immediately</p>
+                    <div class="font-mullish text-lightBlue hover:text-lightBlue500">
+                        <a href="#" class="p-4">Know More</a>
+                    </div>
+                </div>
+                <img src="https://codehelp-razorpay-clone.netlify.app/assets/payment-link-icon.svg" alt=""
+                    class="absolute -z-10 top-6 right-3 bg-lightBlue rounded-full" width="50px">
+            </div>
+
+            <div class="w-full relative hover:cursor-pointer">
+                <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+                    class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] featureCardSVG transition-all duration-200"
+                    style="stroke-opacity: 0.15">
+                    <path d="m 0 6 
+                        a 6 6 0 0 1 6 -6 
+                        h 250.32501220703125 
+                        a 16 16 0 0 1 11 5 
+                        l 77 77 
+                        a 16 16 0 0 1 5 11 
+                        v 126 
+                        a 6 6 0 0 1 -6 6 
+                        h -337.32501220703125 
+                        a 6 6 0 0 1 -6 -6 
+                        z" fill="#fff"></path>
+                </svg>
+                <div class="absolute z-50 space-y-6 p-8">
+                    <h1 class="font-mullish text-deepBlue font-semibold text-xl">Payment Pages</h1>
+                    <p class="text-grayText">Take your store online instantly with zero coding. Accept international &
+                        domestic payments</p>
+                    <div class="font-mullish text-lightBlue hover:text-lightBlue500">
+                        <a href="#" class="p-4">Know More</a>
+                    </div>
+                </div>
+                <img src="https://codehelp-razorpay-clone.netlify.app/assets/payment-pages-icon.svg" alt=""
+                    class="absolute -z-10 top-6 right-3 bg-lightBlue rounded-full" width="50px">
+            </div>
+
+            <div class="w-full relative hover:cursor-pointer">
+                <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+                    class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] featureCardSVG transition-all duration-200"
+                    style="stroke-opacity: 0.15">
+                    <path d="m 0 6 
+                        a 6 6 0 0 1 6 -6 
+                        h 250.32501220703125 
+                        a 16 16 0 0 1 11 5 
+                        l 77 77 
+                        a 16 16 0 0 1 5 11 
+                        v 126 
+                        a 6 6 0 0 1 -6 6 
+                        h -337.32501220703125 
+                        a 6 6 0 0 1 -6 -6 
+                        z" fill="#fff"></path>
+                </svg>
+                <div class="absolute z-50 space-y-6 p-8">
+                    <h1 class="font-mullish text-deepBlue font-semibold text-xl">Payment Buttons</h1>
+                    <p class="text-grayText">Create, Copy & Collect With Payment Button. Collect one time or
+                        subscription payments & more</p>
+                    <div class="font-mullish text-lightBlue hover:text-lightBlue500">
+                        <a href="#" class="p-4">Know More</a>
+                    </div>
+                </div>
+                <img src="https://codehelp-razorpay-clone.netlify.app/assets/payment-link-icon.svg" alt=""
+                    class="absolute -z-10 top-6 right-3 bg-lightBlue rounded-full" width="50px">
+            </div>
+
+            <div class="w-full relative hover:cursor-pointer">
+                <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+                    class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] featureCardSVG transition-all duration-200"
+                    style="stroke-opacity: 0.15">
+                    <path d="m 0 6 
+                        a 6 6 0 0 1 6 -6 
+                        h 250.32501220703125 
+                        a 16 16 0 0 1 11 5 
+                        l 77 77 
+                        a 16 16 0 0 1 5 11 
+                        v 126 
+                        a 6 6 0 0 1 -6 6 
+                        h -337.32501220703125 
+                        a 6 6 0 0 1 -6 -6 
+                        z" fill="#fff"></path>
+                </svg>
+                <div class="absolute z-50 space-y-6 p-8">
+                    <h1 class="font-mullish text-deepBlue font-semibold text-xl">Subscriptions</h1>
+                    <p class="text-grayText">Subscription plans with automated recurring transactions on various payment
+                        modes.</p>
+                    <div class="font-mullish text-lightBlue hover:text-lightBlue500">
+                        <a href="#" class="p-4">Know More</a>
+                    </div>
+                </div>
+                <img src="https://codehelp-razorpay-clone.netlify.app/assets/subscriptions-icon.svg" alt=""
+                    class="absolute -z-10 top-6 right-3 bg-lightBlue rounded-full" width="50px">
+            </div>
+
+            <div class="w-full relative hover:cursor-pointer">
+                <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+                    class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] featureCardSVG transition-all duration-200"
+                    style="stroke-opacity: 0.15">
+                    <path d="m 0 6 
+                        a 6 6 0 0 1 6 -6 
+                        h 250.32501220703125 
+                        a 16 16 0 0 1 11 5 
+                        l 77 77 
+                        a 16 16 0 0 1 5 11 
+                        v 126 
+                        a 6 6 0 0 1 -6 6 
+                        h -337.32501220703125 
+                        a 6 6 0 0 1 -6 -6 
+                        z" fill="#fff"></path>
+                </svg>
+                <div class="absolute z-50 space-y-6 p-8">
+                    <h1 class="font-mullish text-deepBlue font-semibold text-xl">Route</h1>
+                    <p class="text-grayText">Split incoming payments auto- matically to vendor’s accounts, manage
+                        marketplace money flow...</p>
+                    <div class="font-mullish text-lightBlue hover:text-lightBlue500">
+                        <a href="#" class="p-4">Know More</a>
+                    </div>
+                </div>
+                <img src="https://codehelp-razorpay-clone.netlify.app/assets/route-icon.svg" alt=""
+                    class="absolute -z-10 top-6 right-3 bg-lightBlue rounded-full" width="50px">
+            </div>
+
+            <div class="w-full relative hover:cursor-pointer">
+                <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+                    class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] featureCardSVG transition-all duration-200"
+                    style="stroke-opacity: 0.15">
+                    <path d="m 0 6 
+                        a 6 6 0 0 1 6 -6 
+                        h 250.32501220703125 
+                        a 16 16 0 0 1 11 5 
+                        l 77 77 
+                        a 16 16 0 0 1 5 11 
+                        v 126 
+                        a 6 6 0 0 1 -6 6 
+                        h -337.32501220703125 
+                        a 6 6 0 0 1 -6 -6 
+                        z" fill="#fff"></path>
+                </svg>
+                <div class="absolute z-50 space-y-6 p-8">
+                    <h1 class="font-mullish text-deepBlue font-semibold text-xl">Smart Collect</h1>
+                    <p class="text-grayText">Automatically reconcile incoming NEFT, RTGS, IMPS, UPI payments using
+                        Virtual Accounts & UPI-IDs</p>
+                    <div class="font-mullish text-lightBlue hover:text-lightBlue500">
+                        <a href="#" class="p-4">Know More</a>
+                    </div>
+                </div>
+                <img src="https://codehelp-razorpay-clone.netlify.app/assets/smart-collect-icon.svg" alt=""
+                    class="absolute -z-10 top-6 right-3 bg-lightBlue rounded-full" width="50px">
+            </div>
+
+        </div>
+    </div>
+
+    <section
+        class="bg-[url(https://raw.githubusercontent.com/Pdeepak18/Razorpay-clone/fbd10addcf05ba6edbad44cd8194140ebb34659b/img/feature-section-2BG.svg)] w-full pt-[8rem] pb-[30rem] bg-cover bg-no-repeat relative -z-10">
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/x-flame-1.png" alt=""
+            class="absolute top-[15rem] left-8 -z-[1]" width="200px">
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/x-flame-2.png" alt=""
+            class="absolute top-[22rem] right-8 -z-10" width="300px">
+
+        <h1 class="mx-auto text-center pb-8 font-mullish font-bold text-white leading-10  text-2xl">Explore Razorpay
+            Business Banking</h1>
+        <div class="w-6 h-1 bg-greenLight mx-auto"></div>
+        <div class="w-[1000px] relative mx-auto mt-[10rem] p-12 border border-gray-400 rounded-md z-10 bg-#181C2E">
+            <img src="https://codehelp-razorpay-clone.netlify.app/assets/buisness-banking.png" alt="" width="500px"
+                class="absolute right-0 z-50">
+            <div class="w-[500px]">
+                <h2 class="font-mullish font-bold text-white text-3xl leading-normal">Manage your company's finances
+                    with
+                    <img src="https://codehelp-razorpay-clone.netlify.app/assets/razorpayX.svg" alt=""
+                        class="inline-block" width="200px">
+                    <span class="text-greenLight"> Business Banking</span>
+                </h2>
+                <ul class="font-mullish leading-6 space-y-5 pt-10">
+                    <li class="flex gap-4 text-white">
+                        <img src="https://clipground.com/images/right-mark-symbol-png-2.png" alt="" width="25px"
+                            height="25px">
+                        <p>Open a fully digital current account</p>
+                    </li>
+                    <li class="flex gap-4 text-white">
+                        <img src="https://clipground.com/images/right-mark-symbol-png-2.png" alt="" width="25px"
+                            height="25px">
+                        <p>Automate payables & compliment payments</p>
+                    </li>
+                    <li class="flex gap-4 text-white">
+                        <img src="https://clipground.com/images/right-mark-symbol-png-2.png" alt="" width="25px"
+                            height="25px">
+                        <p>Simplify and track spends with Corporate cards</p>
+                    </li>
+                    <li class="flex gap-4 text-white">
+                        <img src="https://clipground.com/images/right-mark-symbol-png-2.png" alt="" width="25px"
+                            height="25px">
+                        <p>View financial insights at a glance</p>
+                    </li>
+                </ul>
+                <div class="flex gap-10 items-center pt-10 z-50">
+                    <button
+                        class="p-4 text-white px-5 bg-lightBlue border-black rounded-md hover:bg-lightBlue500 transition-all duration-200 relative pr-16 group">
+                        <div
+                            class="w-10 h-20 bg-greenLight absolute right-4 -top-3 skew-x-12 rounded-md group-hover:bg-green-800">
+                        </div>
+                        Sign Up Now
+                    </button>
+
+                    <div class="font-mullish text-lightBlue hover:text-lightBlue500">
+                        <a href="#" class="p-4">Know More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="grid gap-8 grid-cols-3 w-[1000px] mx-auto h-[400px] py-16">
+            <div class="w-full relative">
+                <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+                    class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] featureCardSVG transition-all duration-200"
+                    style="stroke-opacity: 1">
+                    <path d="m 0 6 
+                        a 6 6 0 0 1 6 -6 
+                        h 250.32501220703125 
+                        a 16 16 0 0 1 11 5 
+                        l 77 77 
+                        a 16 16 0 0 1 5 11 
+                        v 126 
+                        a 6 6 0 0 1 -6 6 
+                        h -337.32501220703125 
+                        a 6 6 0 0 1 -6 -6 
+                        z" fill="#181C2E"></path>
+                </svg>
+                <img src="https://codehelp-razorpay-clone.netlify.app/assets/current-icon.svg" alt=""
+                    class="bg-lightBlue rounded-full absolute -z-10 top-5 right-2" width="50px">
+                <div class="absolute z-50 p-10 space-y-6 ">
+                    <h2 class="font-mullish  text-xl text-white leading-normal font-bold z-10">Current Account</h2>
+                    <p class="text-grayText font-mullish ">Current accounts for fast-growing businesses, supported by
+                        the best-in-class technology</p>
+                    <div class="font-mullish text-lightBlue hover:text-lightBlue500">
+                        <a href="#" class="p-4">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full relative">
+                <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+                    class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] featureCardSVG transition-all duration-200"
+                    style="stroke-opacity: 1">
+                    <path d="m 0 6 
+                        a 6 6 0 0 1 6 -6 
+                        h 250.32501220703125 
+                        a 16 16 0 0 1 11 5 
+                        l 77 77 
+                        a 16 16 0 0 1 5 11 
+                        v 126 
+                        a 6 6 0 0 1 -6 6 
+                        h -337.32501220703125 
+                        a 6 6 0 0 1 -6 -6 
+                        z" fill="#181C2E"></path>
+                </svg>
+                <img src="https://codehelp-razorpay-clone.netlify.app/assets/capital-credit-icon.svg" alt=""
+                    class="bg-lightBlue rounded-full absolute -z-10 top-5 right-2" width="50px">
+                <div class="absolute z-50 p-10 space-y-6 ">
+                    <h2 class="font-mullish  text-xl text-white leading-normal font-bold z-10">Capital & Credit</h2>
+                    <p class="text-grayText font-mullish ">Instant additional cash and corporate cards designed for
+                        growing businesses</p>
+                    <div class="font-mullish text-lightBlue hover:text-lightBlue500">
+                        <a href="#" class="p-4">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full relative">
+                <svg viewBox="0 0 349.32501220703125 225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+                    class="stroke-1 stroke-[#818597] h-full w-full absolute z-[9] featureCardSVG transition-all duration-200"
+                    style="stroke-opacity: 1">
+                    <path d="m 0 6 
+                        a 6 6 0 0 1 6 -6 
+                        h 250.32501220703125 
+                        a 16 16 0 0 1 11 5 
+                        l 77 77 
+                        a 16 16 0 0 1 5 11 
+                        v 126 
+                        a 6 6 0 0 1 -6 6 
+                        h -337.32501220703125 
+                        a 6 6 0 0 1 -6 -6 
+                        z" fill="#181C2E"></path>
+                </svg>
+                <img src="https://codehelp-razorpay-clone.netlify.app/assets/payouts-icon.svg" alt=""
+                    class="bg-lightBlue rounded-full absolute -z-10 top-5 right-2" width="50px">
+                <div class="absolute z-50 p-10 space-y-6 ">
+                    <h2 class="font-mullish  text-xl text-white leading-normal font-bold z-10">Payouts</h2>
+                    <p class="text-grayText font-mullish ">Make simple, reliable & secure payouts to bank accounts, UPI
+                        IDs or wallets</p>
+                    <div class="font-mullish text-lightBlue hover:text-lightBlue500">
+                        <a href="#" class="p-4">Know More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="w-[1000px] mx-auto p-6 border border-gray-400 rounded-md space-y-6 flex justify-evenly items-center px-8">
+            <p class="font-mullish text-white">Check out the live demo to learn how RazorpayX works.
+                <span class="font-bold"> No sign-up required!</span>
+            </p>
+            <button
+                class="p-4 text-white px-5 bg-lightBlue border-black rounded-md hover:bg-lightBlue500 transition-all duration-200 relative pr-16 group">
+                <div
+                    class="w-10 h-20 bg-greenLight absolute right-4 -top-3 skew-x-12 rounded-md group-hover:bg-green-800">
+                </div>
+                Check Out the demo
+            </button>
+        </div>
+    </section>
+
+    <section class="w-full relative">
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/feature-section1-dottedrows.png" alt=""
+            class="absolute -top-24 left-1/3 -z-20">
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/feature-section1-dottedrows.png" alt=""
+            class="absolute -top-24 right-20">
+        <div class="w-[1080px] mx-auto pt-20">
+            <div class="w-full grid grid-cols-3 grid-rows-2 gap-8">
+                <!-- text -->
+                <div class="font-mullish font-bold text-4xl leading-normal text-deepBlue">
+                    New in the <span class="text-lightBlue">Razorpay</span> <br> Product Suite
+                </div>
+                <!-- card -->
+                <div
+                    class="w-full relative space-y-5 shadow-md p-8 bg-[url(instant-settlement-bg.svg)] hover:bg-[url(instant-settlement-bghover.svg)] hover:scale-105 transition-all duration-200">
+                    <img src="https://codehelp-razorpay-clone.netlify.app/assets/razorpayXicon.svg" alt="" width="40px">
+                    <h1 class="font-mullish text-deepBlue font-bold text-xl">Corporate Cards</h1>
+                    <p class="font-mullish text-grayText">Simplify your recurring, international and team expenses with
+                        savings on every spend. Save upto 10 lacs every month.</p>
+                    <div class="font-mullish text-lightBlue hover:text-lightBlue500">
+                        <a href="#" class="p-4">Know More</a>
+                    </div>
+                </div>
+                <div
+                    class="w-full relative space-y-5 shadow-md p-8 bg-[url(instant-settlement-bg.svg)] hover:bg-[url(instant-settlement-bghover.svg)] hover:scale-105 transition-all duration-200">
+                    <img src="https://codehelp-razorpay-clone.netlify.app/assets/autopay-icon.svg" alt="" width="40px">
+                    <h1 class="font-mullish text-deepBlue font-bold text-xl">UPI AutoPay</h1>
+                    <p class="font-mullish text-grayText">Allow customers to set up recurring payments using UPI Apps.
+                    </p>
+                    <div class="font-mullish text-lightBlue hover:text-lightBlue500">
+                        <a href="#" class="p-4">Know More</a>
+                    </div>
+                </div>
+                <div
+                    class="w-full relative space-y-5 shadow-md p-8 bg-[url(instant-settlement-bg.svg)] hover:bg-[url(instant-settlement-bghover.svg)] hover:scale-105 transition-all duration-200">
+                    <img src="https://codehelp-razorpay-clone.netlify.app/assets/magic-checkout.svg" alt=""
+                        width="40px">
+                    <h1 class="font-mullish text-deepBlue font-bold text-xl">Magic Checkout</h1>
+                    <p class="font-mullish text-grayText">Improve your order conversion rates & reduce
+                        return-to-origins. Boost your business by 20%</p>
+                    <div class="font-mullish text-lightBlue hover:text-lightBlue500">
+                        <a href="#" class="p-4">Know More</a>
+                    </div>
+                </div>
+                <div
+                    class="w-full relative space-y-5 shadow-md p-8 bg-[url(instant-settlement-bg.svg)] hover:bg-[url(instant-settlement-bghover.svg)] hover:scale-105 transition-all duration-200">
+                    <img src="https://codehelp-razorpay-clone.netlify.app/assets/payment-button.svg" alt=""
+                        width="40px">
+                    <h1 class="font-mullish text-deepBlue font-bold text-xl">Payment Button</h1>
+                    <p class="font-mullish text-grayText">Accept payments on your website, in less than 5 minutes. No
+                        developer needed.</p>
+                    <div class="font-mullish text-lightBlue hover:text-lightBlue500">
+                        <a href="#" class="p-4">Know More</a>
+                    </div>
+                </div>
+                <div
+                    class="w-full relative space-y-5 shadow-md p-8 bg-[url(instant-settlement-bg.svg)] hover:bg-[url(instant-settlement-bghover.svg)] hover:scale-105 transition-all duration-200">
+                    <img src="https://codehelp-razorpay-clone.netlify.app/assets/instant-settlement-icon.svg" alt=""
+                        width="40px">
+                    <h1 class="font-mullish text-deepBlue font-bold text-xl">Payment Button</h1>
+                    <p class="font-mullish text-grayText">Accept payments on your website, in less than 5 minutes. No
+                        developer needed.p>
+                    <div class="font-mullish text-lightBlue hover:text-lightBlue500">
+                        <a href="#" class="p-4">Know More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section
+        class="w-full bg-[url(https://raw.githubusercontent.com/Pdeepak18/Razorpay-clone/fbd10addcf05ba6edbad44cd8194140ebb34659b/img/core-features-sectionBg.svg)] mt-[10rem] pt-[15rem] pb-[15rem] bg-no-repeat bg-[100%] bg-cover">
+        <h1 class="text-white font-mullish font-bold text-2xl text-center pb-5">Features</h1>
+        <div class="w-6 h-1 bg-greenLight mx-auto"></div>
+        <p class="w-[500px] text-white mx-auto mt-4">Empower your business with all the right tools to accept online
+            payments and provide the best customer experience</p>
+        <div class="w-[1080px] grid grid-cols-4 grid-rows-2 mx-auto pt-16 gap-9">
+            <div class="w-full space-y-4">
+                <img src="https://codehelp-razorpay-clone.netlify.app/assets/instant-activation-icon.svg" alt="">
+                <h2 class="text-white font-mullish font-bold text-xl">Instant Activation</h2>
+                <p class="text-white opacity-70">Get activated and transact within 2 minutes. Completely online
+                    onboarding with minimum documentation.</p>
+            </div>
+            <div class="w-full space-y-4">
+                <img src="https://codehelp-razorpay-clone.netlify.app/assets/instant-activation-icon.svg" alt="">
+                <h2 class="text-white font-mullish font-bold text-xl">Instant Activation</h2>
+                <p class="text-white opacity-70">Get activated and transact within 2 minutes. Completely online
+                    onboarding with minimum documentation.</p>
+            </div>
+            <div class="w-full space-y-4">
+                <img src="https://codehelp-razorpay-clone.netlify.app/assets/instant-activation-icon.svg" alt="">
+                <h2 class="text-white font-mullish font-bold text-xl">Instant Activation</h2>
+                <p class="text-white opacity-70">Get activated and transact within 2 minutes. Completely online
+                    onboarding with minimum documentation.</p>
+            </div>
+            <div class="w-full space-y-4">
+                <img src="https://codehelp-razorpay-clone.netlify.app/assets/instant-activation-icon.svg" alt="">
+                <h2 class="text-white font-mullish font-bold text-xl">Instant Activation</h2>
+                <p class="text-white opacity-70">Get activated and transact within 2 minutes. Completely online
+                    onboarding with minimum documentation.</p>
+            </div>
+            <div class="w-full space-y-4">
+                <img src="https://codehelp-razorpay-clone.netlify.app/assets/instant-activation-icon.svg" alt="">
+                <h2 class="text-white font-mullish font-bold text-xl">Instant Activation</h2>
+                <p class="text-white opacity-70">Get activated and transact within 2 minutes. Completely online
+                    onboarding with minimum documentation.</p>
+            </div>
+            <div class="w-full space-y-4">
+                <img src="https://codehelp-razorpay-clone.netlify.app/assets/instant-activation-icon.svg" alt="">
+                <h2 class="text-white font-mullish font-bold text-xl">Instant Activation</h2>
+                <p class="text-white opacity-70">Get activated and transact within 2 minutes. Completely online
+                    onboarding with minimum documentation.</p>
+            </div>
+            <div class="w-full space-y-4">
+                <img src="https://codehelp-razorpay-clone.netlify.app/assets/instant-activation-icon.svg" alt="">
+                <h2 class="text-white font-mullish font-bold text-xl">Instant Activation</h2>
+                <p class="text-white opacity-70">Get activated and transact within 2 minutes. Completely online
+                    onboarding with minimum documentation.</p>
+            </div>
+            <div class="w-full space-y-4">
+                <img src="https://codehelp-razorpay-clone.netlify.app/assets/instant-activation-icon.svg" alt="">
+                <h2 class="text-white font-mullish font-bold text-xl">Instant Activation</h2>
+                <p class="text-white opacity-70">Get activated and transact within 2 minutes. Completely online
+                    onboarding with minimum documentation.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="w-full bg-[#f5f8fe]">
+        <div class="w-[1200px] mx-auto flex items-center">
+            <div class="w-[80%] space-y-4">
+                <h1 class="font-mullish font-semibold text-2xl text-deepBlueHead">Join the 50,00,000+ businesses using
+                    Razorpay</h1>
+                <div class="w-6 h-1 bg-greenLight"></div>
+                <p class="font-mullish leading-normal">
+                    We make it easier for you to focus on building great products while we work on simplifying your
+                    payments. Become one of us by joining thousands of our happy users and simplify the online payment
+                    experience for your customers.</p>
+                <p>Focus on your business while we handle the complexities of payments for you.</p>
+            </div>
+            <div class="h-[600px] overflow-hidden relative w-[800px]">
+                <div style="background-image: linear-gradient(180deg,#f4f8ff,#fff0);"
+                    class="absolute top-0 w-full z-50 h-[150px]"></div>
+                <img src="https://codehelp-razorpay-clone.netlify.app/assets/comanies.png" alt="" width="100%"
+                    class="animate absolute right-0 z-10">
+                <div style="background-image: linear-gradient(0deg,#f4f8ff,#fff0);"
+                    class="absolute bottom-0 w-full z-50 h-[150px]"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="w-full relative pt-32 pb-8">
+        <img src="https://codehelp-razorpay-clone.netlify.app/assets/feature-section1-dottedrows.png" alt="" width="200px" class="absolute left-40 -z-10 top-48">
+        <h1 class="font-mullish text-deepBlue text-center text-2xl font-bold mb-6">An Experience <br>
+            People Love to Talk About</h1>
+        <div class="w-6 h-1 bg-greenLight mx-auto"></div>  
+        <div class="w-[1300px] flex justify-between items-center mx-auto pt-16">
+            <button class="w-[80px] h-[80px] bg-[#f5f8fe] rounded-full flex justify-center items-center">
+                <img src="https://th.bing.com/th/id/R.a4833abd52f3367bbce1d1cd1ab1e368?rik=PHX1gAjCv3L6YA&riu=http%3a%2f%2fclipart-library.com%2fimages%2f8ixrxoArT.png&ehk=hj%2bYgy%2fwzZGwQ%2bdhwF8JXiwVoyZsoi6otujHqSznMSU%3d&risl=&pid=ImgRaw&r=0" alt="" width="40px" class="rotate-180 z-10">
+            </button>
+            <div class="flex justify-between items-center w-[900px]">
+                <img src="https://codehelp-razorpay-clone.netlify.app/assets/testimonial.jpg" alt="" width="300px" height="300px" class="rounded-md">
+                <div class="space-y-2 w-[400px]">
+                    <img src="https://codehelp-razorpay-clone.netlify.app/assets/quotes.svg" alt="" width="30px" class="rotate-180">
+                    <h2 class="font-mullish font-extralight text-3xl">Readymade Closed Wallet <br> Solution For Quick Refunds</h2>
+                    <a href="#" class="text-grayText italic underline">Learn More</a>
+                    <h3 class="font-mullish text-xl font-bold">Lorem Ipsum</h3>
+                    <p >CEO, XYZ Engineering Company</p>
+                    <img src="https://codehelp-razorpay-clone.netlify.app/assets/fake-company-logo.png" alt="" width="80px">
+                </div>
+            </div>
+            <button class="w-[80px] h-[80px] bg-[#f5f8fe] rounded-full flex justify-center items-center">
+                <img src="https://th.bing.com/th/id/R.a4833abd52f3367bbce1d1cd1ab1e368?rik=PHX1gAjCv3L6YA&riu=http%3a%2f%2fclipart-library.com%2fimages%2f8ixrxoArT.png&ehk=hj%2bYgy%2fwzZGwQ%2bdhwF8JXiwVoyZsoi6otujHqSznMSU%3d&risl=&pid=ImgRaw&r=0" alt="" width="40px">
+            </button>
+        </div>
+        <div class="flex justify-center gap-0 mt-8">
+            <input type="radio" class="w-[25px]" name="select">
+            <input type="radio" class="w-[25px]" name="select" checked> 
+            <input type="radio" class="w-[25px]" name="select">
+            <input type="radio" class="w-[25px]" name="select">
+            <input type="radio" class="w-[25px]" name="select">
+            <input type="radio" class="w-[25px]" name="select">
+        </div>
+    </section>
+
+    <section class="w-full bg-[url(https://raw.githubusercontent.com/Pdeepak18/Razorpay-clone/fbd10addcf05ba6edbad44cd8194140ebb34659b/img/CTABg.svg)] bg-no-repeat bg-[100%] py-8">
+        <div class="w-[1200px] flex justify-between mx-auto py-20">
+            <div class="w-[700px] space-y-4">
+                <h1 class="font-mullish text-2xl text-white font-bold">
+                    Supercharge your business with Razorpay</h1>
+                <div class="w-6 h-1 bg-greenLight"></div>
+                <p class="font-mullish text-white">Sign up now to experience the future of payments and offer <br> your customers the best checkout experience.</p>
+                <ul class="flex flex-wrap gap-8 pt-8 gap-y-4">
+                    <li class="flex gap-4 text-white">
+                        <img src="https://clipground.com/images/right-mark-symbol-png-2.png" alt="" width="25px" height="25px">
+                        <p>Quick Onboarding</p>
+                    </li>
+                    <li class="flex gap-4 text-white">
+                        <img src="https://clipground.com/images/right-mark-symbol-png-2.png" alt="" width="25px" height="25px">
+                        <p>Access to entire product suite</p>
+                    </li>
+                    <li class="flex gap-4 text-white">
+                        <img src="https://clipground.com/images/right-mark-symbol-png-2.png" alt="" width="25px" height="25px">
+                        <p>API access</p>
+                    </li>
+                    <li class="flex gap-4 text-white">
+                        <img src="https://clipground.com/images/right-mark-symbol-png-2.png" alt="" width="25px" height="25px">
+                        <p>24x7 support</p>
+                    </li>
+                </ul>
+                <button
+                    class="p-4 text-deepBlueHead px-10 bg-white border-black rounded-md hover:text-deepBlue transition-all duration-200">Sign Up
+                </button>
+            </div>
+            <img src="https://codehelp-razorpay-clone.netlify.app/assets/ctaImg.svg" alt="" width="300px">
+        </div>
+    </section>
+</body>
+</html>
